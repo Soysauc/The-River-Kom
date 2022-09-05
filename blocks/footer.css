@@ -6,12 +6,9 @@
 .footer__logo {
   width: 116px;
   height: 21px;
-  /* background-color: black; */
-  /* min-height: 224px; */
 }
 
 .footer__copyrights {
-  /* padding: 108px 0 60 0; */
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
