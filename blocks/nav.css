@@ -1,3 +1,28 @@
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  margin-right: 80px;
+  /* z-index: 1; */
+}
 .nav__links {
+  display: flex;
+  align-items: center;
   list-style: none;
+  padding-left: 0;
+  margin-top: 30px;
+  column-gap: 20px;
+}
+.nav__link {
+  color: #000;
+  text-decoration: none;
+  font-family: "Times New Roman", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  transition: color 0.25s ease-in-out;
+}
+.nav__link:hover {
+  color: #fdf85d;
 }

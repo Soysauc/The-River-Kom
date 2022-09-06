@@ -1,0 +1,31 @@
+.data {
+  background: url(../images/Sun\ pic.png) no-repeat center / cover;
+}
+.data__title {
+  max-width: 780px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+  margin: 0 auto 24px;
+  color: #fff;
+}
+.data__subtitle {
+  max-width: 780px;
+  text-align: center;
+  font-family: "Noto serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 auto 100px;
+  color: #fff;
+}
+.data__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+}

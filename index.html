@@ -4,34 +4,59 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta content="ie=edge" http-equiv="X-UA-Compatible" />
-    <title>The River Kom</title>
+    <title>The-River-Kom</title>
     <link href="../pages/index.css" rel="stylesheet" />
-    <link href="./images/favicon.ico" rel="icon" type="image/x-icon">
+    <link href="./images/favicon.ico" rel="icon" type="image/x-icon" />
   </head>
   <body class="page">
     <header class="header">
-       <nav class="nav">
-          <ul class="nav__links">
-            <li>
-              <a class="nav__link" href="#about">About</a>
-            </li>
-            <li>
-              <a class="nav__link" href="#data">Data</a>
-            </li>
-            <li>
-              <a class="nav__link" href="#analysis">Analysis</a>
-            </li>
-            <li>
-              <a class="nav__link" href="#copyright">Credits</a>
-            </li>
-          </ul>
-        </nav>
+      <nav class="nav">
+        <ul class="nav__links">
+          <li>
+            <a class="nav__link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="nav__link" href="#data">Data</a>
+          </li>
+          <li>
+            <a class="nav__link" href="#analysis">Analysis</a>
+          </li>
+          <li>
+            <a class="nav__link" href="#copyright">Credits</a>
+          </li>
+        </ul>
+      </nav>
 
-        <h1 class="header__title">Turn Up The Heat</h1>
-        <div class="header__sun header__sun_animation_blurred"></div>
+      <h1 class="header__title">
+        Turn Up The <span class="header__span-accent">Heat</span>
+      </h1>
+      <p class="header__subtitle">
+        Placeholder for subtitle. Explain the function of the website. Data will
+        be explained etc.
+      </p>
+      <div class="header__sun header__sun_animation_blurred"></div>
+      <img
+        class="header__image"
+        src="./images/earth-310882.svg"
+        alt="earth image"
+      />
     </header>
     <main>
-      <section class="data__images"></section>
+      <section class="data" id="data">
+        <h2 class="data__title">Data</h2>
+        <p class="data__subtitle"></p>
+        <div class="data__cards">
+          <div class="card">
+            <h3 class="card__title">Image 1</h3>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Image 2</h3>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Image 3</h3>
+          </div>
+        </div>
+      </section>
       <section></section>
       <section></section>
     </main>
@@ -39,12 +64,44 @@
 
   <footer class="footer" id="copyright">
     <div class="footer__content">
-          <img
-            class="footer__logo"
-            src="./images/practicum_logo.svg"
-            alt="Practicum Logo"
-          />
-          <h3 class="footer__title">The River Kom</h3>
+      <img
+        class="footer__logo"
+        src="./images/practicum_logo.svg"
+        alt="Practicum Logo"
+      />
+
+      <div class="footer__content-social">
+        <h4 class="footer__social-heading">Socials</h4>
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <a
+              class="footer__social-link"
+              href="https://www.linkedin.com/in/jeremy-rivera-411b41121/"
+            >
+              <img
+                class="footer__social-icon"
+                src="./images/linkedin2.png"
+                alt="LinkedIn logo"
+              />
+              LinkedIn
+            </a>
+          </li>
+          <li class="footer__list-item">
+            <a
+              class="footer__social-link"
+              href="https://github.com/Soysauc/The-River-Kom.git"
+            >
+              <img
+                class="footer__social-icon"
+                src="./images/github.png"
+                alt="Git Hub Logo"
+              />
+              GitHub
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <p class="footer__copyrights">
       &copy; 2022 Jeremy Rivera & Ilia Komissarov
     </p>
