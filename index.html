@@ -36,8 +36,7 @@
       <h1 class="header__title">
         Turn Up The <span class="header__span-accent">Heat</span>
       </h1>
-      <p class="header__subtitle">
-        It can be a question formulated by the data analyst in your team and a general introduction of the idea behind the chosen dataset
+      <p class="header__subtitle">This Dataset is a 2D table that consists of 27 columns and 8741 observations. The observations are global Solar Power tracker, consisting of name of projects of solar power in countries all over the world, their power capacity, status of operation, coordinates, regions etc.
       </p>
       <div class="header__sun header__sun_animation_blurred"></div>
       <img
@@ -49,9 +48,27 @@
     <main>
       <section class="data">
         <h2 class="data__title"> Data <span class="data__span-accent">Ouputs</span>:</h2>
-        <p class="data__description">Following initial analysis returns us these following images. The images are split up into 5 groups of countries, alphebetical order, showing us the solar* cell power infrastructure segmentation. This is split into 4 groups: Operating, Construction, Development, and what was Announced in regards to solar power output.
+        <p class="data__description">Following initial analysis returns us these following charts. The graphs are split up into 5 groups of countries, alphebetical order, showing us the solar* cell power infrastructure segmentation. This is split into 4 groups: Operating, Construction, Development, and what was Announced in regards to solar power output.
           (<span class="data__description-span">Click</span> on any figure to enlarge) </p>
         <ul class="card-list" id="data"></ul>
+        </section>
+        <section class="analysis">
+          <h2 class="analysis__title" id="analysis">Major <span class="analysis__title-span">Findings</span></h2>
+         <div class="analysis__paragraphs"> <p class="analysis__description">Of the Five most developed regions in terms of operating and future expected solar cell power infrastructure is Asia. Roughly 40% of all operating and future infrastructure. </p>
+        <p class="analysis__description">In Contrast to the first finding based on the Donut segmentation we can see that the share of Asia in operating infrastructure is 63.7% which is way higher than the share of the first finding which can give a clue that in the future Asia will be a less dominant player in Solar cell power, while Europe and north and south America we be much more dominant. </p>
+      
+      </div>
+         <div class="analysis__content">
+      <div class="analysis__circle">
+        <img src="./images/donut.png"
+        class="analysis__image"
+        alt="donut-graph"/>
+      </div>
+      <div class="analysis__circle"><img src="./images/bargraph.png"
+        class="analysis__image"
+        alt="donut-graph"/></div>
+    </div>
+    
         </section>
     </main>
   </body>

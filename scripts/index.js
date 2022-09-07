@@ -19,6 +19,10 @@ const codeBridgeCards = [
     name: "Data Output 5",
     link: "../images/output5.png",
   },
+  {
+    name: "Cumulative",
+    link: "../images/output6.png",
+  },
 ];
 
 const imagePreview = document.querySelector("#image_preview");

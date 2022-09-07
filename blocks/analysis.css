@@ -1,0 +1,43 @@
+.analysis {
+  background: linear-gradient(180deg, #93aedc 35%, rgb(75, 74, 74) 100%);
+  /* padding: 0; */
+}
+.analysis__paragraphs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.analysis__title {
+  margin: 0;
+  padding: 50px 0 50px 130px;
+}
+.analysis__title-span {
+  color: #d37c0b;
+}
+.analysis__description {
+  margin: 0;
+  font-family: "Roboto Mono", "Times New Roman", serif;
+  max-width: 450px;
+}
+.analysis__content {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+.analysis__circle {
+  background-color: white;
+  width: 420px;
+  height: 500px;
+  border-radius: 40%;
+
+  /* padding: 30px; */
+}
+.analysis__image {
+  max-width: 350px;
+  /* margin: 0 auto; */
+  padding: 30px;
+  /* align-self: center; */
+}
+.analysis__image:last-of-type {
+  padding-top: 80px;
+}

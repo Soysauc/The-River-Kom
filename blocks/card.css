@@ -2,7 +2,7 @@
   display: flex;
   list-style: none;
   flex-direction: column;
-  border-radius: 30px;
+  border-radius: 100px;
   background: white;
   overflow: hidden;
   position: relative;
@@ -17,7 +17,7 @@
   cursor: pointer;
 }
 .card__content-container {
-  padding: 25px 20px;
+  padding: 10px 80px;
   font-family: "Antonio", Arial, sans-serif;
   color: rgb(0, 0, 0);
   background-color: white;
@@ -26,7 +26,6 @@
   width: 100%;
   box-sizing: border-box;
   margin: 0;
-  /* margin-right: 16px; */
   grid-template-columns: repeat(auto-fit, 282px);
   align-items: center;
 }
