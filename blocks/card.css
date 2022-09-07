@@ -1,0 +1,44 @@
+.card {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  border-radius: 30px;
+  background: white;
+  overflow: hidden;
+  position: relative;
+  background-color: #1677c2;
+}
+
+.card__image {
+  width: 282px;
+  height: 282px;
+}
+.card__image:hover {
+  cursor: pointer;
+}
+.card__content-container {
+  padding: 25px 20px;
+  font-family: "Antonio", Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  /* margin-right: 16px; */
+  grid-template-columns: repeat(auto-fit, 282px);
+  align-items: center;
+}
+
+.card__text {
+  font-size: 24px;
+  font-weight: 900;
+  font-style: normal;
+  max-width: 100%;
+  line-height: 29px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0;
+}

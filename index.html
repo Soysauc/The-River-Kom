@@ -7,6 +7,12 @@
     <title>The-River-Kom</title>
     <link href="../pages/index.css" rel="stylesheet" />
     <link href="./images/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Roboto+Mono:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="page">
     <header class="header">
@@ -31,8 +37,7 @@
         Turn Up The <span class="header__span-accent">Heat</span>
       </h1>
       <p class="header__subtitle">
-        Placeholder for subtitle. Explain the function of the website. Data will
-        be explained etc.
+        It can be a question formulated by the data analyst in your team and a general introduction of the idea behind the chosen dataset
       </p>
       <div class="header__sun header__sun_animation_blurred"></div>
       <img
@@ -42,25 +47,38 @@
       />
     </header>
     <main>
-      <section class="data" id="data">
-        <h2 class="data__title">Data</h2>
-        <p class="data__subtitle"></p>
-        <div class="data__cards">
-          <div class="card">
-            <h3 class="card__title">Image 1</h3>
-          </div>
-          <div class="card">
-            <h3 class="card__title">Image 2</h3>
-          </div>
-          <div class="card">
-            <h3 class="card__title">Image 3</h3>
-          </div>
-        </div>
-      </section>
-      <section></section>
-      <section></section>
+      <section class="data">
+        <h2 class="data__title"> Data <span class="data__span-accent">Ouputs</span>:</h2>
+        <p class="data__description">Following initial analysis returns us these following images. The images are split up into 5 groups of countries, alphebetical order, showing us the solar* cell power infrastructure segmentation. This is split into 4 groups: Operating, Construction, Development, and what was Announced in regards to solar power output.
+          (<span class="data__description-span">Click</span> on any figure to enlarge) </p>
+        <ul class="card-list" id="data"></ul>
+        </section>
     </main>
   </body>
+
+  <template id="card-template">
+    <li class="card">
+      <img class="card__image" src="#" alt="#" />
+      <div class="card__content-container">
+        <h2 class="card__text"></h2>
+      </div>
+    </li>
+  </template>
+  <div class="popup" id="image_preview">
+        <div
+          class="popup__content popup__content-image-preview"
+          id="image_preview-content"
+        >
+          <button
+            class="popup__close popup__close-preview"
+            id="image_preview-close"
+            type="button"
+          ></button>
+          <img class="popup__image" alt="#" src="#" />
+          <h3 class="popup__image-title"></h3>
+        </div>
+      </div>
+    </div>
 
   <footer class="footer" id="copyright">
     <div class="footer__content">
@@ -106,4 +124,5 @@
       &copy; 2022 Jeremy Rivera & Ilia Komissarov
     </p>
   </footer>
+  <script defer src="./scripts/index.js"></script>
 </html>

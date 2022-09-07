@@ -16,7 +16,7 @@
 .nav__link {
   color: #000;
   text-decoration: none;
-  font-family: "Times New Roman", Arial, sans-serif;
+  font-family: "Antonio", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -24,5 +24,5 @@
   transition: color 0.25s ease-in-out;
 }
 .nav__link:hover {
-  color: #fdf85d;
+  color: #88be00;
 }

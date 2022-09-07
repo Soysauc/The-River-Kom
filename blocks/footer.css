@@ -1,5 +1,5 @@
 .footer {
-  background: linear-gradient(180deg, #fdf85d 0%, #d37c0b 100%);
+  background-color: rgb(75, 74, 74);
   padding: 60px 100px 60px 80px;
   box-sizing: border-box;
 }
@@ -10,7 +10,7 @@
 }
 .footer__social-heading {
   margin: 0 0 20px 0;
-  font-family: "Times New Roman", Arial, sans-serif;
+  font-family: "Roboto Mono", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -51,6 +51,7 @@
   line-height: 20px;
   text-decoration: none;
   display: flex;
+  font-family: "Antonio", Arial, sans-serif;
   align-items: center;
 }
 .footer__social-link:hover {
@@ -65,7 +66,7 @@
   border-radius: 6px;
 }
 .footer__copyrights {
-  font-family: "Times New Roman", Arial, sans-serif;
+  font-family: "Roboto Mono", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;

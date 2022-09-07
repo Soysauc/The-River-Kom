@@ -1,31 +1,22 @@
 .data {
-  background: url(../images/Sun\ pic.png) no-repeat center / cover;
+  background: linear-gradient(180deg, #d9e7ff 0%, #93aedc 35%);
 }
 .data__title {
-  max-width: 780px;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 44px;
-  line-height: 52px;
-  text-align: center;
-  margin: 0 auto 24px;
-  color: #fff;
+  margin-top: 0;
+  font-family: "Antonio", Arial, sans-serif;
+  margin-left: 80px;
 }
-.data__subtitle {
-  max-width: 780px;
-  text-align: center;
-  font-family: "Noto serif", "Times New Roman", serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
-  margin: 0 auto 100px;
-  color: #fff;
+.data__span-accent {
+  color: #d37c0b;
 }
-.data__cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 100px;
+.data__description {
+  font-family: "Roboto Mono", "Times New Roman", serif;
+  margin-left: 80px;
+  margin-right: 600px;
+}
+.data__description-span {
+  color: #d37c0b;
+}
+.data__description-span:hover {
+  cursor: pointer;
 }
