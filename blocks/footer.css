@@ -62,8 +62,8 @@
   width: 20px;
   height: 20px;
   margin-right: 10px;
-  border: 1px solid black;
-  border-radius: 6px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
 }
 .footer__copyrights {
   font-family: "Roboto Mono", Arial, sans-serif;

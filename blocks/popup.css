@@ -104,7 +104,7 @@
 }
 
 .popup__image {
-  max-width: 75vw;
+  max-width: 60vw;
   max-height: 80vh;
   width: 100%;
 }
@@ -125,7 +125,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  */ .popup__close {
+  .popup__close {
     right: 0;
     width: 26px;
     height: 26px;
